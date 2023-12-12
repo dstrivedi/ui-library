@@ -12,44 +12,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Next.js on Replit!
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://docs.replit.com/category/hosting"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              This website automatically deployed on Replit by hitting the run button!
-            </p>
-          </a>
-        </div>
+        <h1>Buttons</h1>
       </main>
 
       <footer className={styles.footer}>
@@ -58,11 +21,11 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Built on
+          Built by
           <span className={styles.logo}>
             <Image src="/replit.svg" alt="Replit Logo" width={20} height={18} />
           </span>
-          Replit
+          Drashti Trivedi
         </a>
       </footer>
     </div>
